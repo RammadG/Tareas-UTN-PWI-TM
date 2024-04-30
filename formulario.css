@@ -1,0 +1,19 @@
+div {
+  display: block;
+}
+.separacion {
+  width: 100px;
+  display: inline-block;
+  unicode-bidi: isolate;
+}
+.linea {
+  display: block;
+  margin-block-start: 0.5em;
+  margin-block-end: 0.5em;
+  margin-inline-start: auto;
+  margin-inline-end: auto;
+  unicode-bidi: isolate;
+  overflow: hidden;
+  border-style: inset;
+  border-width: 1px;
+}
